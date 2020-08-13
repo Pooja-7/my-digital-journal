@@ -1,0 +1,19 @@
+{
+  "hosting": [
+    {
+      "target": "my-digital-journal",
+      "public": "dist/my-digital-journal",
+      "ignore": [
+        "firebase.json",
+        "**/.*",
+        "**/node_modules/**"
+      ],
+      "rewrites": [
+        {
+          "source": "**",
+          "destination": "/index.html"
+        }
+      ]
+    }
+  ]
+}

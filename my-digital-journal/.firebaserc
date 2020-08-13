@@ -1,0 +1,11 @@
+{
+  "targets": {
+    "my-digital-journal": {
+      "hosting": {
+        "my-digital-journal": [
+          "my-digital-journal"
+        ]
+      }
+    }
+  }
+}
